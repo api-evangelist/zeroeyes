@@ -1,17 +1,41 @@
 aid: zeroeyes
 name: ZeroEyes
-description: 'ZeroEyes is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'ZeroEyes is an AI-powered visual firearm detection company founded in
+  2018 by former U.S. Navy SEALs and technologists after the Marjory Stoneman Douglas
+  shooting, headquartered in Conshohocken, Pennsylvania. Its computer-vision platform
+  layers onto a customer''s existing IP security cameras (any RTSP-capable camera,
+  720p or better, 2017 or newer) to detect brandished firearms, and every AI detection
+  is human-verified in the 24/7 ZeroEyes Operations Center (ZOC) before an alert carrying
+  imagery, camera location, and a first-responder link is dispatched. The company sells
+  into K-12 and higher education, commercial and industrial facilities, houses of worship,
+  gaming, smart cities and transit, and federal government (ZeroEyes Federal / ZEGS),
+  and complements detection with 3D site mapping and analytics. It holds FedRAMP Moderate
+  authorization, SOC 2 Type 2, ISO/IEC 27001 certification, and a DHS SAFETY Act designation.
+  ZeroEyes publishes no public developer API, OpenAPI definition, SDKs, or developer
+  portal; integration is delivered through partner ecosystems (VMS, mass notification,
+  mapping, robotics, RapidSOS, ATAK/iTAK) and camera RTSP streams rather than a self-serve
+  API.'
 url: https://raw.githubusercontent.com/api-evangelist/zeroeyes/refs/heads/main/apis.yml
+image: https://cdn.sanity.io/images/bz515bsx/production/7a1ae0e7360f342f0542a360963453f2ddeb92d3-1920x1080.png?w=1200&h=627&q=80&fit=crop&auto=format
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enrichment
 specificationVersion: '0.20'
 created: '2026-08-02'
 modified: '2026-08-02'
 tags:
 - Company
+- Security
+- Physical Security
+- Artificial Intelligence
+- Computer Vision
+- Video Surveillance
+- Weapons Detection
+- Public Safety
+- Education
+- Government
+- Smart Cities
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +43,36 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/zeroeyes-domain-security.yml
 - type: Website
+  url: https://zeroeyes.com/
+- type: Support
+  url: https://zeroeyes.com/contact-us
+- type: Blog
+  url: https://zeroeyes.com/blog
+- type: Pricing
+  url: https://zeroeyes.com/pricing
+- type: TermsOfService
+  url: https://zeroeyes.com/terms-conditions
+- type: PrivacyPolicy
+  url: https://zeroeyes.com/privacy-policy
+- type: Compliance
+  url: https://zeroeyes.com/certifications-designations
+- type: TrustCenter
+  url: security/zeroeyes-trust-center.yml
+- type: LLMsTxt
+  url: llms/zeroeyes-llms.txt
+- type: Conformance
+  url: conformance/zeroeyes-conformance.yml
+- type: Lifecycle
+  url: lifecycle/zeroeyes-lifecycle.yml
+- type: Partners
+  url: https://zeroeyes.com/technology-partnership
+- type: SecondaryMarket
   url: https://forgeglobal.com/zeroeyes_stock/
+x-enrichment:
+  date: '2026-08-02'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1

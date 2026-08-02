@@ -1,0 +1,77 @@
+generated: '2026-08-02'
+method: probed
+source: https://zeroeyes.com/
+note: >-
+  Every /.well-known/ discovery path was probed against every ZeroEyes host and
+  every one returned 404. No RFC 9116 security.txt, no OIDC/OAuth discovery
+  document, no RFC 9727 api-catalog, no ai-plugin manifest, and no A2A agent
+  card is published. Recorded as an honest negative result — no WellKnown
+  pointer is wired in apis.yml because there is no discovery surface to point
+  at. The only machine-readable document ZeroEyes serves at a well-known
+  location is /llms.txt (saved verbatim to llms/zeroeyes-llms.txt).
+hosts:
+- host: https://zeroeyes.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  - path: /llms.txt
+    status: 200
+    file: ../llms/zeroeyes-llms.txt
+- host: https://www.zeroeyes.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  - path: /llms.txt
+    status: 200
+- host: https://zegs.zeroeyes.com
+  note: ZeroEyes Government Solutions (ZEGS)
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+hosts_probed_no_dns:
+- api.zeroeyes.com
+- developer.zeroeyes.com
+- docs.zeroeyes.com
+- app.zeroeyes.com
+- portal.zeroeyes.com
+x-evidence:
+  fetched: '2026-08-02'
+  method: HTTP GET, follow redirects, 8s timeout

@@ -1,0 +1,56 @@
+# ZeroEyes
+
+> ZeroEyes is an AI-powered visual firearm detection platform that uses existing security cameras and human verification to identify guns and reduce response time.
+
+This site provides product and technology information, industry solutions, gun violence research, resources, partnership programs, and funding information. Use the sections below to find detailed pages on each topic.
+
+## Product & technology
+
+- [Home](https://zeroeyes.com/): ZeroEyes overview and main product information
+- [Technology](https://zeroeyes.com/technology): Visual firearm detection technology, AI and human verification
+- [3D site mapping](https://zeroeyes.com/3d-site-mapping): Drone and LiDAR 3D mapping for campuses and facilities to support safety planning and responder navigation
+- [Request a demo](https://zeroeyes.com/request-a-demo): Schedule a demo or get in touch with sales
+- [Pricing](https://zeroeyes.com/pricing): Per-camera pricing and assessment
+
+## Industries & solutions
+
+- [Gun violence research](https://zeroeyes.com/gun-violence-research): Research hub and state-level gun violence data
+- [Education security](https://zeroeyes.com/education-security): Solutions for K-12 and higher education
+- [Commercial security](https://zeroeyes.com/commercial-security): Solutions for businesses and commercial spaces
+- [Smart city & municipal](https://zeroeyes.com/smart-city-security): Solutions for cities, counties, and transit hubs
+
+## Research & resources
+
+- [Resources](https://zeroeyes.com/resources): Whitepapers, guides, and gated content
+- [FAQs](https://zeroeyes.com/faqs): Frequently asked questions about ZeroEyes
+
+## Partnerships
+
+- [Technology partnership](https://zeroeyes.com/technology-partnership): Integrate or partner with ZeroEyes technology
+- [Channel partnership](https://zeroeyes.com/channel-partnership): Reseller and channel partner programs
+
+## Funding & grants
+
+- [Funding & grants](https://zeroeyes.com/funding-grants): Overview of funding and grant options
+- [COPS SVPP grant](https://zeroeyes.com/funding-grants/cops-svpp): Federal School Violence Prevention Program funding for K-12 AI gun detection
+- [Texas funding](https://zeroeyes.com/funding-grants/texas-funding): Texas-specific funding and grants
+- [Michigan funding](https://zeroeyes.com/funding-grants/michigan-funding): Michigan-specific funding and grants
+- [Iowa funding](https://zeroeyes.com/funding-grants/iowa-funding): Iowa-specific funding and grants
+
+## Company & support
+
+- [About us](https://zeroeyes.com/about-us): Company overview, mission, and leadership
+- [Contact us](https://zeroeyes.com/contact-us): General inquiries and support
+
+## Optional
+
+- [Blog](https://zeroeyes.com/blog): News, insights, and updates
+- [Events](https://zeroeyes.com/events): Webinars and events
+- [Certifications & designations](https://zeroeyes.com/certifications-designations): Compliance and certifications
+- [No Bell Podcast](https://zeroeyes.com/no-bell-podcast): ZeroEyes podcast
+- [Technology compatibility](https://zeroeyes.com/resources/compatibility): Compatible cameras and systems
+- [Privacy policy](https://zeroeyes.com/privacy-policy): Privacy policy and data handling
+- [Data Privacy Framework notice](https://zeroeyes.com/dpf-notice): EU-U.S. Data Privacy Framework notice
+- [Terms & conditions](https://zeroeyes.com/terms-conditions): Terms of service
+- [Accessibility](https://zeroeyes.com/accessibility): Accessibility statement
+- [ZeroEyes patents](https://zeroeyes.com/zeroeyes-patents): Patent information

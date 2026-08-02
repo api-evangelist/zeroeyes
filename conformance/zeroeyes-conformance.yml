@@ -1,0 +1,85 @@
+generated: '2026-08-02'
+method: searched
+source: https://zeroeyes.com/certifications-designations
+note: >-
+  ZeroEyes publishes no API, so there is no OpenAPI/AsyncAPI to derive
+  API-level conformance from (no OAuth2/OIDC, no RFC 9457, no pagination or
+  idempotency contract). What it does publish is a real, named compliance and
+  certification posture on its Certifications & Designations page, plus the
+  interoperability standards its detection platform is built against. Only
+  claims stated on ZeroEyes' own pages are recorded here.
+standards:
+- id: fedramp-moderate
+  conforms: true
+  scope: ZeroEyes Federal (ZEF) threat detection solution
+  evidence: >-
+    "FedRAMP Moderate Authorized" — ZeroEyes Certifications & Designations page;
+    engineered for federal agencies with security and data-residency mandates.
+  source: https://zeroeyes.com/certifications-designations
+- id: soc2-type2
+  conforms: true
+  evidence: >-
+    "SOC 2 Type 2 Certified" — systems and controls audited for security,
+    availability, and data protection.
+  source: https://zeroeyes.com/certifications-designations
+- id: iso-iec-27001
+  conforms: true
+  version: '2013'
+  evidence: >-
+    "ISO/IEC 27001:2013 Certified" — information security management system
+    certification.
+  source: https://zeroeyes.com/certifications-designations
+- id: dhs-safety-act
+  conforms: true
+  evidence: >-
+    U.S. Department of Homeland Security SAFETY Act Designation — recognizes
+    ZeroEyes as a qualified anti-terrorism technology and extends liability
+    protection to customers.
+  source: https://zeroeyes.com/certifications-designations
+- id: eu-us-data-privacy-framework
+  conforms: true
+  evidence: ZeroEyes publishes a Data Privacy Framework notice.
+  source: https://zeroeyes.com/dpf-notice
+- id: rtsp
+  conforms: true
+  kind: interoperability
+  evidence: >-
+    Detection ingests from any IP camera exposing an RTSP stream (720p or
+    better, 2017 or newer) — the platform's primary integration interface.
+  source: https://zeroeyes.com/resources/compatibility
+- id: rapidsos
+  conforms: true
+  kind: interoperability
+  evidence: >-
+    Validated RapidSOS integration for interoperability with emergency
+    response ecosystems.
+  source: https://zeroeyes.com/certifications-designations
+- id: tak-atak-itak
+  conforms: true
+  kind: interoperability
+  evidence: >-
+    Detections can be routed to ATAK/iTAK situational-awareness clients
+    alongside VMS platforms.
+  source: https://zeroeyes.com/technology/
+- id: oauth2
+  conforms: false
+  evidence: No public API and no documented OAuth 2.0 surface.
+- id: openid-connect
+  conforms: false
+  evidence: /.well-known/openid-configuration returns 404 on every host.
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public API contract published.
+- id: rfc9116-security-txt
+  conforms: false
+  evidence: /.well-known/security.txt returns 404 on every host.
+certifications:
+- FedRAMP Moderate
+- SOC 2 Type 2
+- ISO/IEC 27001:2013
+- DHS SAFETY Act Designation
+- EU-U.S. Data Privacy Framework
+x-evidence:
+  fetched: '2026-08-02'
+  url: https://zeroeyes.com/certifications-designations
+  http_status: 200

@@ -1,0 +1,13 @@
+generated: '2026-08-02'
+method: searched
+source: https://zeroeyes.com/llms.txt
+file: zeroeyes-llms.txt
+http_status: 200
+bytes: 3516
+note: >-
+  Provider-published llms.txt, saved verbatim. ZeroEyes authors and serves this
+  file itself — it is a marketing/product site map for LLMs (product,
+  technology, industries, research, partnerships, funding, company, legal),
+  not a developer or API index. It names no API, no SDK, no endpoint and no
+  specification, which is consistent with every other probe in this pass:
+  ZeroEyes has no public API surface.

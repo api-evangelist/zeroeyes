@@ -1,0 +1,46 @@
+generated: '2026-08-02'
+method: searched
+probe: true
+url: https://zeroeyes.com/certifications-designations
+kind: certifications-page
+note: >-
+  ZeroEyes does not run a hosted trust portal — trust.zeroeyes.com does not
+  resolve and /trust, /security and /compliance all return 404. It does
+  publish a first-party Certifications & Designations page that names its
+  audits and authorizations in full, which is the compliance surface recorded
+  here. Recorded as kind: certifications-page rather than a Safebase/Vanta
+  style trust center so the distinction is not lost.
+certifications:
+- name: FedRAMP Moderate
+  detail: ZeroEyes Federal (ZEF) authorized at the FedRAMP Moderate baseline.
+- name: SOC 2 Type 2
+  detail: Audited controls for security, availability, and data protection.
+- name: ISO/IEC 27001:2013
+  detail: Certified information security management system.
+- name: DHS SAFETY Act Designation
+  detail: >-
+    Qualified anti-terrorism technology designation, extending liability
+    protection to customers deploying ZeroEyes.
+- name: BreachBits Cyber Score
+  detail: Independent third-party cyber risk rating.
+- name: EU-U.S. Data Privacy Framework
+  detail: Data Privacy Framework notice published at /dpf-notice.
+  url: https://zeroeyes.com/dpf-notice
+related_policies:
+- name: Privacy Policy
+  url: https://zeroeyes.com/privacy-policy
+- name: Terms & Conditions
+  url: https://zeroeyes.com/terms-conditions
+- name: Patents
+  url: https://zeroeyes.com/zeroeyes-patents
+negative_findings:
+- {probe: 'https://trust.zeroeyes.com', result: no-dns}
+- {probe: 'https://zeroeyes.com/trust', status: 404}
+- {probe: 'https://zeroeyes.com/security', status: 404}
+evidence:
+- source: https://zeroeyes.com/certifications-designations
+  keywords: [fedramp, soc 2 type 2, iso/iec 27001, safety act, breachbits]
+x-evidence:
+  fetched: '2026-08-02'
+  url: https://zeroeyes.com/certifications-designations
+  http_status: 200
