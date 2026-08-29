@@ -16,6 +16,17 @@ description: 'ZeroEyes is an AI-powered visual firearm detection company founded
   mapping, robotics, RapidSOS, ATAK/iTAK) and camera RTSP streams rather than a self-serve
   API.'
 url: https://raw.githubusercontent.com/api-evangelist/zeroeyes/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://cdn.sanity.io/images/bz515bsx/production/7a1ae0e7360f342f0542a360963453f2ddeb92d3-1920x1080.png?w=1200&h=627&q=80&fit=crop&auto=format
 x-type: company
 x-source: harvest:secondary-market
